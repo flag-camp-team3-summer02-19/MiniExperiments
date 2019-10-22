@@ -1,2 +1,2 @@
 # MiniExperiments
-Explore some dignity within React
+Explore some dignity within React :)
