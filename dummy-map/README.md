@@ -1,4 +1,5 @@
-# Dummy Map is a react project that explore the following question: How should we update child component from parent component, if the child component uses react-google-maps
+# Dummy Map is a react project that explore the following question:
+How should we update child component from parent component, if the child component uses react-google-maps
 
 ## Solution: using ref and recompose
 This folder contains one example of updating, here is the brief explain of the workflow:
@@ -20,4 +21,5 @@ We change the structure of `component/MapContainer.js` based from the example, s
 
 ## References
 [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
+
 [React Google Maps Style Guide](https://tomchentw.github.io/react-google-maps/#usage--configuration)
