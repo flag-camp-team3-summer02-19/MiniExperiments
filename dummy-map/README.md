@@ -9,7 +9,7 @@ Our solution is using refs and `recompose`
 ### Step1: <App /> keeps a reference to its child <MapContainer />
 For usage of refs, please refer to the doc: [Refs and the DOM](https://reactjs.org/docs/refs-and-the-dom.html)
 
-Notice only the class component could we have the ref to it, so we need to make sure that in `component/MapContainer.js`:
+Notice we cannot add ref to functional component, so we need to make sure that a class component is used for `MapContainer`. In `component/MapContainer.js`:
 ```React
 class MapContainer extends React.Component {
     ...
